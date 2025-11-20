@@ -16,6 +16,7 @@ motor==3.7.0
 #---imdb---#
 cinemagoer==2023.5.1
 
+pandas
 
 
 
@@ -43,4 +44,5 @@ filetype
 tldextract
 lk21
 Flask==2.2.2
+
 
