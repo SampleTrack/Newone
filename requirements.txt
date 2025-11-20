@@ -17,7 +17,7 @@ motor==3.7.0
 cinemagoer==2023.5.1
 
 pandas
-
+openpyxl
 
 
 pytz
@@ -44,5 +44,6 @@ filetype
 tldextract
 lk21
 Flask==2.2.2
+
 
 
