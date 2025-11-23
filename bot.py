@@ -31,8 +31,6 @@ class Bot(Client):
     async def start(self):
         # Removed database calls to get banned users
         # Setting them to empty lists so plugins don't break
-        temp.BANNED_USERS = []
-        temp.BANNED_CHATS = []
         
         await super().start()
         # Removed Media.ensure_indexes()
