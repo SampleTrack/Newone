@@ -1,6 +1,5 @@
 import logging
-from pyrogram import Client, filters
-from pyrogram.errors import StopPropagation
+from pyrogram import Client, filters, StopPropagation
 from info import ADMINS
 from utils import temp
 from database.users_chats_db import db
