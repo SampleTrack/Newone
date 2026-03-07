@@ -39,6 +39,8 @@ class Bot(Client):
         b_users, b_chats = await db.get_banned()
         temp.BANNED_USERS = b_users
         temp.BANNED_CHATS = b_chats
+        # Load maintenance state
+        temp.MAINTENANCE_MODE = await db.get_maintenance()
         await super().start()
         await Media.ensure_indexes()
         me = await self.get_me()
