@@ -55,6 +55,8 @@ class temp(object):
     ACTIVE_URL = {}
     TOKEN_ACCEPTED = {}
     STORE_ID = {}
+    # ADD THIS:
+    MAINTENANCE_MODE = False
     
 async def add_new_user(client, user):
     tz = pytz.timezone('Asia/Kolkata')
